@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#0fff"
+    android:gravity="center">
+    <TextView android:id="@+id/text"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
